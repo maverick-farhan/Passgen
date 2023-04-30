@@ -55,7 +55,8 @@ div.passwords{
 color:#111;
 font-weight:400;
 text-align:center;
-font-size:24px;
+font-size:22px;
+margin-left:2rem;
 }
 
 div.copyContainer{
@@ -86,6 +87,7 @@ font-size:12px;
 margin-top:3px;
 transition:none;
 display:none;
+color:green;
 }
 
 div.generate{
@@ -127,3 +129,9 @@ flex-direction:column;
 line-height:1.6rem;
 }
 
+/*div[data-text]{
+color:#444;
+font-size:16px !important;
+text-align:center;
+}
+*/
