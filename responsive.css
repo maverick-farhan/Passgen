@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+@media(max-width:412px){
+header div.logo{
+height:10vh;
+}
+header div.logo h1{
+font-size:30px;
+}
+header div.logo img{
+width:27px;
+height:36px;
+}
+
+div.passwordContainer{
+width:calc(100% - 20%);
+height:3rem;
+}
+
+div.passwords{
+text-align:center;
+font-size:16px;
+width:100%;
+}
+div.copy i{
+font-size:20px;
+}
+div.copiedMsg{
+font-size:8px;
+display:none;
+}
+
+div.generate{
+height:3rem;
+}
+
+div.generate button{
+width:100px;
+height:25px;
+font-size:14px;
+}
+
+
+div.footer{
+height:40%;
+padding:20px;
+line-height:2rem;
+font-size:12px;
+}
+}
+

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+width:100%;
+height:100%;
+background-color: #eee;
+}
+
+header div.logo{
+display:flex;
+height:20vh;
+align-items: center;
+justify-content: center;
+}
+
+header div.logo h1{
+color:#C71F1B;
+font-size:40px;
+}
+header div.logo img{
+width:40px;
+height:50px;
+transform: rotate(260deg);
+}
+
+div.container{
+width:100%;
+height:80vh;
+display:flex;
+flex-direction:column;
+}
+
+div.passwordContainer{
+width:calc(100% - 70%);
+background-color:#E6D7D6;
+padding:5px;
+margin-top:3rem;
+height:5rem;
+border-radius:30px;
+display:flex;
+justify-content: space-around;
+align-items:center;
+align-self:center;
+border:1px solid #5555;
+}
+
+div.passwords{
+color:#111;
+font-weight:400;
+text-align:center;
+font-size:22px;
+margin-left:2rem;
+}
+
+div.copyContainer{
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+padding:3px;
+}
+
+div.copy{
+width:40px;
+height:20px;
+text-align:center;
+}
+div.copy i{
+font-size:24px;
+color:#333;
+cursor:pointer;
+transition:font-size .4s ease;
+}
+div.copy i:hover{
+font-size:20px;
+color:#111;
+}
+div.copiedMsg{
+font-size:12px;
+margin-top:3px;
+transition:none;
+display:none;
+color:green;
+}
+
+div.generate{
+width:100%;
+height:4rem;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+div.generate button{
+all:unset;
+width:140px;
+cursor:pointer;
+margin-top:3rem;
+height:30px;
+background-color:#C71F1B;
+text-align:center;
+padding:5px;
+font-size:18px;
+border-radius:30px;
+font-weight:bold;
+color:#111;
+transition: all .2s ease-in;
+}
+
+div.generate button:hover{
+color:#fff;
+background-color: #111;
+}
+
+div.footer{
+width:100%;
+height:50%;
+display:flex;
+justify-content: flex-end;
+align-items:center;
+flex-direction:column;
+line-height:1.6rem;
+}
+
+/*div[data-text]{
+color:#444;
+font-size:16px !important;
+text-align:center;
+}
+*/
