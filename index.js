@@ -9,12 +9,6 @@ let copyMsg = document.querySelector('.copiedMsg');
 let customAttr = password.getAttribute('data-text'); 
 password.textContent = customAttr;
 
-navigator.permissions.query({ name: "write-on-clipboard" }).then((result) => {
-  if (result.state == "granted" || result.state == "prompt") {
-    alert("Write access granted!");
-  }
-});
-
 let generate = () => {
     fetch(url)
     .then(data => data.json())
